@@ -1,0 +1,39 @@
+{
+    "name": "ellipse/container-overridden",
+    "type": "library",
+    "description": "Psr-11 container decorator allowing to override container entries at runtime",
+    "keywords": [
+        "psr-11",
+        "container",
+        "dependency-injection",
+        "decorator"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/ellipsephp/container-overridden",
+    "support": {
+        "issues": "https://github.com/ellipsephp/container-overridden/issues",
+        "source": "https://github.com/ellipsephp/container-overridden"
+    },
+    "authors": [
+        {
+            "name": "pmall",
+            "email": "pierre.mallinjoud@gmail.com"
+        }
+    ],
+    "provide": {
+        "psr/container-implementation": "^1.0"
+    },
+    "require": {
+        "php": ">=7.1",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^4.0",
+        "eloquent/phony-kahlan": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ellipse\\Container\\": "src"
+        }
+    }
+}
